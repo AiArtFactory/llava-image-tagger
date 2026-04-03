@@ -1,0 +1,15 @@
+# Image Tagger Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML/DL Libraries
+torch>=2.0.0
+transformers>=4.30.0
+
+# Image Processing
+Pillow>=9.0.0
+
+# Progress Bar
+tqdm>=4.65.0
+
+# Optional: For better performance on Apple Silicon (M1/M2/M3)
+# Install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
