@@ -14,7 +14,7 @@ A powerful Python-based CLI tool for generating, managing, and organizing image 
 ### Prerequisites
 
 - Python 3.8+
-- NVIDIA GPU (CUDA) or Apple Silicon (MPS) is highly recommended for performance.
+- NVIDIA GPU (CUDA) or Apple Silicon (MPS) is highly recommended for performance (those are what I've tested this on) though it *can* be used on a cpu as well. AMD and Intel GPUs will *probably* work too but I have not tested it on those kinds yet. 
 
 ### Setup
 
