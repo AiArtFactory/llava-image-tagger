@@ -97,5 +97,5 @@ The script automatically detects and uses the best available hardware:
 
 ## Technical Details
 
-- **Model**: Defaults to `fancyfeast/llama-joycaption-beta-one-hf-llava`.
+- **Model**: Defaults to `fancyfeast/llama-joycaption-beta-one-hf-llava`, a bf16 precision model that will use ~17 GB or memory when used. I recommend using either lighter weight models or a quantized HF-format version of the joycaption model, Don't accuracy might differ depending on how heavy the quantization is or what model is used.
 - **Memory Management**: Includes automatic garbage collection and cache clearing to optimize usage during large batch processes.
