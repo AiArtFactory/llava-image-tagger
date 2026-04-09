@@ -24,7 +24,7 @@ A powerful Python-based CLI tool for generating, managing, and organizing image 
    cd similar-image-remover
    ```
 
-2. Install dependencies:
+2. Install dependencies (I recommend doing this with a python or conda environment so it doesn't break any other dependenciesnon your machine):
    ```bash
    pip install -r requirements.txt
    ```
